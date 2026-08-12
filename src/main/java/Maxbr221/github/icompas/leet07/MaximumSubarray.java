@@ -1,7 +1,7 @@
 package Maxbr221.github.icompas.leet07;
 
 public class MaximumSubarray {
-
+    //dificuldade media
     //nums = [-2,1,-3,4,-1,2,1,-5,4]
     public int maxSubArray(int[] nums) {
         int somaAtual = nums[0];
