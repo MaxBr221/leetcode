@@ -1,4 +1,4 @@
-package Maxbr221.github.leet15;
+package Maxbr221.github.icompas.leet15;
 
 public class RichestCustomerWealth {
 
