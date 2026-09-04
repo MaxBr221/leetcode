@@ -1,4 +1,4 @@
-package Maxbr221.github.icompas.testeeducarex;
+package Maxbr221.github.icompas.leet19;
 
 import java.util.Arrays;
 
