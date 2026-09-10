@@ -5,12 +5,12 @@ public class ShuffleTheArray {
     // Saída: [2,3,5,4,1,7]
     public int[] shuffle(int[] nums, int n) {
         int[] novoArray = new int[nums.length];
-
         for (int i = 0; i < n; i++) {
             novoArray[i * 2] = nums[i];
+            //novoArray = [2, 0, 5, 0, 1, 0]
             novoArray[i * 2 + 1] = nums[n + i];
+            //novoArray = [2, 3, 5, 4, 1, 7]
         }
-
         return novoArray;
     }
 }
