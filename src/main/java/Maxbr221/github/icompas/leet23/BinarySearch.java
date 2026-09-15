@@ -4,7 +4,7 @@ public class BinarySearch {
 
     public int search(int[] nums, int target) {
         int inicio = 0;
-        int fim = nums.length;
+        int fim = nums.length - 1;
 
         while (inicio <= fim){
 
